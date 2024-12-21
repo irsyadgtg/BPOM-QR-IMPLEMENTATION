@@ -1,0 +1,10 @@
+﻿Application     D:\TelkomUniv\SEM 7\CAPSTONE PROJECT\cspro_bpom-main2\cspro_bpom-main\CAPSTONE_BPOM\CAPSTONE_BPOM\cbpom_2022\cbpom_2022.ent
+Type            Entry
+Date            Dec 15, 2024
+Time            17:33:02
+
+CSPro Error Summary
+
+WARNING(GLOBAL, 4): You should explicitly specify the length of an alpha variable; the length will default to 16
+
+WARNING(DATA_PRODUK000, 1191): DATA_PRODUK000 should have a subscript - you may get error messages when you run this application

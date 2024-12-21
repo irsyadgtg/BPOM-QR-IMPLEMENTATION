@@ -1,0 +1,998 @@
+﻿[Dictionary]
+Version=CSPro 7.6
+Label=cbpom_2022
+Name=CBPOM_2022_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=EBDAF74A101636BBF46F8B4C59744A1104DCE74B7D82B546D9B7EDBC6A8B512D
+
+[Level]
+Label=cbpom_2022 Level
+Name=CBPOM_2022_LEVEL
+
+[IdItems]
+
+[Item]
+Label=Provinsi
+Name=KODE_PROVINSI
+Start=2
+Len=2
+DataType=Alpha
+
+[Item]
+Label=Kabupaten
+Name=KODE_KABUPATEN
+Start=4
+Len=4
+
+[ValueSet]
+Label=Kabupaten
+Name=KODE_KABUPATEN_VS1
+Value=1101;SIMEULUE
+Value=1102;ACEH SINGKIL
+Value=1103;ACEH SELATAN
+Value=1104;ACEH TENGGARA
+Value=1105;ACEH TIMUR
+Value=1106;ACEH TENGAH
+Value=1107;ACEH BARAT
+Value=1108;ACEH BESAR
+Value=1109;PIDIE
+Value=1110;BIREUEN
+Value=1111;ACEH UTARA
+Value=1112;ACEH BARAT DAYA
+Value=1113;GAYO LUES
+Value=1114;ACEH TAMIANG
+Value=1115;NAGAN RAYA
+Value=1116;ACEH JAYA
+Value=1117;BENER MERIAH
+Value=1118;PIDIE JAYA
+Value=1171;BANDA ACEH
+Value=1172;SABANG
+Value=1173;LANGSA
+Value=1174;LHOKSEUMAWE
+Value=1175;SUBULUSSALAM
+Value=1201;NIAS
+Value=1202;MANDAILING NATAL
+Value=1203;TAPANULI SELATAN
+Value=1204;TAPANULI TENGAH
+Value=1205;TAPANULI UTARA
+Value=1206;TOBA SAMOSIR
+Value=1207;LABUHAN BATU
+Value=1208;ASAHAN
+Value=1209;SIMALUNGUN
+Value=1210;DAIRI
+Value=1211;KARO
+Value=1212;DELI SERDANG
+Value=1213;LANGKAT
+Value=1214;NIAS SELATAN
+Value=1215;HUMBANG HASUNDUTAN
+Value=1216;PAKPAK BHARAT
+Value=1217;SAMOSIR
+Value=1218;SERDANG BEDAGAI
+Value=1219;BATU BARA
+Value=1220;PADANG LAWAS UTARA
+Value=1221;PADANG LAWAS
+Value=1222;LABUHAN BATU SELATAN
+Value=1223;LABUHAN BATU UTARA
+Value=1224;NIAS UTARA
+Value=1225;NIAS BARAT
+Value=1271;SIBOLGA
+Value=1272;TANJUNG BALAI
+Value=1273;PEMATANG SIANTAR
+Value=1274;TEBING TINGGI
+Value=1275;MEDAN
+Value=1276;BINJAI
+Value=1277;PADANGSIDIMPUAN
+Value=1278;GUNUNGSITOLI
+Value=1301;KEPULAUAN MENTAWAI
+Value=1302;PESISIR SELATAN
+Value=1303;SOLOK
+Value=1304;SIJUNJUNG
+Value=1305;TANAH DATAR
+Value=1306;PADANG PARIAMAN
+Value=1307;AGAM
+Value=1308;LIMA PULUH KOTA
+Value=1309;PASAMAN
+Value=1310;SOLOK SELATAN
+Value=1311;DHARMASRAYA
+Value=1312;PASAMAN BARAT
+Value=1371;PADANG
+Value=1372;SOLOK
+Value=1373;SAWAH LUNTO
+Value=1374;PADANG PANJANG
+Value=1375;BUKITTINGGI
+Value=1376;PAYAKUMBUH
+Value=1377;PARIAMAN
+Value=1401;KUANTAN SINGINGI
+Value=1402;INDRAGIRI HULU
+Value=1403;INDRAGIRI HILIR
+Value=1404;PELALAWAN
+Value=1405;S I A K
+Value=1406;KAMPAR
+Value=1407;ROKAN HULU
+Value=1408;BENGKALIS
+Value=1409;ROKAN HILIR
+Value=1410;KEPULAUAN MERANTI
+Value=1471;PEKANBARU
+Value=1473;D U M A I
+Value=1501;KERINCI
+Value=1502;MERANGIN
+Value=1503;SAROLANGUN
+Value=1504;BATANG HARI
+Value=1505;MUARO JAMBI
+Value=1506;TANJUNG JABUNG TIMUR
+Value=1507;TANJUNG JABUNG BARAT
+Value=1508;TEBO
+Value=1509;BUNGO
+Value=1571;JAMBI
+Value=1572;SUNGAI PENUH
+Value=1601;OGAN KOMERING ULU
+Value=1602;OGAN KOMERING ILIR
+Value=1603;MUARA ENIM
+Value=1604;LAHAT
+Value=1605;MUSI RAWAS
+Value=1606;MUSI BANYUASIN
+Value=1607;BANYU ASIN
+Value=1608;OGAN KOMERING ULU SELATAN
+Value=1609;OGAN KOMERING ULU TIMUR
+Value=1610;OGAN ILIR
+Value=1611;EMPAT LAWANG
+Value=1671;PALEMBANG
+Value=1672;PRABUMULIH
+Value=1673;PAGAR ALAM
+Value=1674;LUBUKLINGGAU
+Value=1701;BENGKULU SELATAN
+Value=1702;REJANG LEBONG
+Value=1703;BENGKULU UTARA
+Value=1704;KAUR
+Value=1705;SELUMA
+Value=1706;MUKOMUKO
+Value=1707;LEBONG
+Value=1708;KEPAHIANG
+Value=1709;BENGKULU TENGAH
+Value=1771;BENGKULU
+Value=1801;LAMPUNG BARAT
+Value=1802;TANGGAMUS
+Value=1803;LAMPUNG SELATAN
+Value=1804;LAMPUNG TIMUR
+Value=1805;LAMPUNG TENGAH
+Value=1806;LAMPUNG UTARA
+Value=1807;WAY KANAN
+Value=1808;TULANGBAWANG
+Value=1809;PESAWARAN
+Value=1810;PRINGSEWU
+Value=1811;MESUJI
+Value=1812;TULANG BAWANG BARAT
+Value=1871;BANDAR LAMPUNG
+Value=1872;METRO
+Value=1901;BANGKA
+Value=1902;BELITUNG
+Value=1903;BANGKA BARAT
+Value=1904;BANGKA TENGAH
+Value=1905;BANGKA SELATAN
+Value=1906;BELITUNG TIMUR
+Value=1971;PANGKAL PINANG
+Value=2101;KARIMUN
+Value=2102;BINTAN
+Value=2103;NATUNA
+Value=2104;LINGGA
+Value=2105;KEPULAUAN ANAMBAS
+Value=2171;B A T A M
+Value=2172;TANJUNG PINANG
+Value=3101;KEPULAUAN SERIBU
+Value=3171;JAKARTA SELATAN
+Value=3172;JAKARTA TIMUR
+Value=3173;JAKARTA PUSAT
+Value=3174;JAKARTA BARAT
+Value=3175;JAKARTA UTARA
+Value=3201;BOGOR
+Value=3202;SUKABUMI
+Value=3203;CIANJUR
+Value=3204;BANDUNG
+Value=3205;GARUT
+Value=3206;TASIKMALAYA
+Value=3207;CIAMIS
+Value=3208;KUNINGAN
+Value=3209;CIREBON
+Value=3210;MAJALENGKA
+Value=3211;SUMEDANG
+Value=3212;INDRAMAYU
+Value=3213;SUBANG
+Value=3214;PURWAKARTA
+Value=3215;KARAWANG
+Value=3216;BEKASI
+Value=3217;BANDUNG BARAT
+Value=3271;BOGOR
+Value=3272;SUKABUMI
+Value=3273;BANDUNG
+Value=3274;CIREBON
+Value=3275;BEKASI
+Value=3276;DEPOK
+Value=3277;CIMAHI
+Value=3278;TASIKMALAYA
+Value=3279;BANJAR
+Value=3301;CILACAP
+Value=3302;BANYUMAS
+Value=3303;PURBALINGGA
+Value=3304;BANJARNEGARA
+Value=3305;KEBUMEN
+Value=3306;PURWOREJO
+Value=3307;WONOSOBO
+Value=3308;MAGELANG
+Value=3309;BOYOLALI
+Value=3310;KLATEN
+Value=3311;SUKOHARJO
+Value=3312;WONOGIRI
+Value=3313;KARANGANYAR
+Value=3314;SRAGEN
+Value=3315;GROBOGAN
+Value=3316;BLORA
+Value=3317;REMBANG
+Value=3318;PATI
+Value=3319;KUDUS
+Value=3320;JEPARA
+Value=3321;DEMAK
+Value=3322;SEMARANG
+Value=3323;TEMANGGUNG
+Value=3324;KENDAL
+Value=3325;BATANG
+Value=3326;PEKALONGAN
+Value=3327;PEMALANG
+Value=3328;TEGAL
+Value=3329;BREBES
+Value=3371;MAGELANG
+Value=3372;SURAKARTA
+Value=3373;SALATIGA
+Value=3374;SEMARANG
+Value=3375;PEKALONGAN
+Value=3376;TEGAL
+Value=3401;KULON PROGO
+Value=3402;BANTUL
+Value=3403;GUNUNG KIDUL
+Value=3404;SLEMAN
+Value=3471;YOGYAKARTA
+Value=3501;PACITAN
+Value=3502;PONOROGO
+Value=3503;TRENGGALEK
+Value=3504;TULUNGAGUNG
+Value=3505;BLITAR
+Value=3506;KEDIRI
+Value=3507;MALANG
+Value=3508;LUMAJANG
+Value=3509;JEMBER
+Value=3510;BANYUWANGI
+Value=3511;BONDOWOSO
+Value=3512;SITUBONDO
+Value=3513;PROBOLINGGO
+Value=3514;PASURUAN
+Value=3515;SIDOARJO
+Value=3516;MOJOKERTO
+Value=3517;JOMBANG
+Value=3518;NGANJUK
+Value=3519;MADIUN
+Value=3520;MAGETAN
+Value=3521;NGAWI
+Value=3522;BOJONEGORO
+Value=3523;TUBAN
+Value=3524;LAMONGAN
+Value=3525;GRESIK
+Value=3526;BANGKALAN
+Value=3527;SAMPANG
+Value=3528;PAMEKASAN
+Value=3529;SUMENEP
+Value=3571;KEDIRI
+Value=3572;BLITAR
+Value=3573;KOTA MALANG
+Value=3574;PROBOLINGGO
+Value=3575;PASURUAN
+Value=3576;MOJOKERTO
+Value=3577;MADIUN
+Value=3578;SURABAYA
+Value=3579;BATU
+Value=3601;PANDEGLANG
+Value=3602;LEBAK
+Value=3603;TANGERANG
+Value=3604;SERANG
+Value=3671;TANGERANG
+Value=3672;CILEGON
+Value=3673;SERANG
+Value=3674;TANGERANG SELATAN
+Value=5101;JEMBRANA
+Value=5102;TABANAN
+Value=5103;BADUNG
+Value=5104;GIANYAR
+Value=5105;KLUNGKUNG
+Value=5106;BANGLI
+Value=5107;KARANG ASEM
+Value=5108;BULELENG
+Value=5171;DENPASAR
+Value=5201;LOMBOK BARAT
+Value=5202;LOMBOK TENGAH
+Value=5203;LOMBOK TIMUR
+Value=5204;SUMBAWA
+Value=5205;DOMPU
+Value=5206;BIMA
+Value=5207;SUMBAWA BARAT
+Value=5208;LOMBOK UTARA
+Value=5271;MATARAM
+Value=5272;BIMA
+Value=5301;SUMBA BARAT
+Value=5302;SUMBA TIMUR
+Value=5303;KUPANG
+Value=5304;TIMOR TENGAH SELATAN
+Value=5305;TIMOR TENGAH UTARA
+Value=5306;BELU
+Value=5307;ALOR
+Value=5308;LEMBATA
+Value=5309;FLORES TIMUR
+Value=5310;SIKKA
+Value=5311;ENDE
+Value=5312;NGADA
+Value=5313;MANGGARAI
+Value=5314;ROTE NDAO
+Value=5315;MANGGARAI BARAT
+Value=5316;SUMBA TENGAH
+Value=5317;SUMBA BARAT DAYA
+Value=5318;NAGEKEO
+Value=5319;MANGGARAI TIMUR
+Value=5320;SABU RAIJUA
+Value=5371;KUPANG
+Value=6101;SAMBAS
+Value=6102;BENGKAYANG
+Value=6103;LANDAK
+Value=6104;PONTIANAK
+Value=6105;SANGGAU
+Value=6106;KETAPANG
+Value=6107;SINTANG
+Value=6108;KAPUAS HULU
+Value=6109;SEKADAU
+Value=6110;MELAWI
+Value=6111;KAYONG UTARA
+Value=6112;KUBU RAYA
+Value=6171;PONTIANAK
+Value=6172;SINGKAWANG
+Value=6201;KOTAWARINGIN BARAT
+Value=6202;KOTAWARINGIN TIMUR
+Value=6203;KAPUAS
+Value=6204;BARITO SELATAN
+Value=6205;BARITO UTARA
+Value=6206;SUKAMARA
+Value=6207;LAMANDAU
+Value=6208;SERUYAN
+Value=6209;KATINGAN
+Value=6210;PULANG PISAU
+Value=6211;GUNUNG MAS
+Value=6212;BARITO TIMUR
+Value=6213;MURUNG RAYA
+Value=6271;PALANGKA RAYA
+Value=6301;TANAH LAUT
+Value=6302;KOTA BARU
+Value=6303;BANJAR
+Value=6304;BARITO KUALA
+Value=6305;TAPIN
+Value=6306;HULU SUNGAI SELATAN
+Value=6307;HULU SUNGAI TENGAH
+Value=6308;HULU SUNGAI UTARA
+Value=6309;TABALONG
+Value=6310;TANAH BUMBU
+Value=6311;BALANGAN
+Value=6371;BANJARMASIN
+Value=6372;BANJAR BARU
+Value=6401;PASER
+Value=6402;KUTAI BARAT
+Value=6403;KUTAI KARTANEGARA
+Value=6404;KUTAI TIMUR
+Value=6405;BERAU
+Value=6471;BALIKPAPAN
+Value=6472;SAMARINDA
+Value=6474;BONTANG
+Value=7101;BOLAANG MONGONDOW
+Value=7102;MINAHASA
+Value=7103;KEPULAUAN SANGIHE
+Value=7104;KEPULAUAN TALAUD
+Value=7105;MINAHASA SELATAN
+Value=7106;MINAHASA UTARA
+Value=7107;BOLAANG MONGONDOW UTARA
+Value=7108;SIAU TAGULANDANG BIARO
+Value=7109;MINAHASA TENGGARA
+Value=7110;BOLAANG MONGONDOW SELATAN
+Value=7111;BOLAANG MONGONDOW TIMUR
+Value=7171;MANADO
+Value=7172;BITUNG
+Value=7173;TOMOHON
+Value=7174;KOTAMOBAGU
+Value=7201;BANGGAI KEPULAUAN
+Value=7202;BANGGAI
+Value=7203;MOROWALI
+Value=7204;POSO
+Value=7205;DONGGALA
+Value=7206;TOLI-TOLI
+Value=7207;BUOL
+Value=7208;PARIGI MOUTONG
+Value=7209;TOJO UNA-UNA
+Value=7210;SIGI
+Value=7271;PALU
+Value=7301;KEPULAUAN SELAYAR
+Value=7302;BULUKUMBA
+Value=7303;BANTAENG
+Value=7304;JENEPONTO
+Value=7305;TAKALAR
+Value=7306;GOWA
+Value=7307;SINJAI
+Value=7308;MAROS
+Value=7309;PANGKAJENE DAN KEPULAUAN
+Value=7310;BARRU
+Value=7311;BONE
+Value=7312;SOPPENG
+Value=7313;WAJO
+Value=7314;SIDENRENG RAPPANG
+Value=7315;PINRANG
+Value=7316;ENREKANG
+Value=7317;LUWU
+Value=7318;TANA TORAJA
+Value=7322;LUWU UTARA
+Value=7325;LUWU TIMUR
+Value=7326;TORAJA UTARA
+Value=7371;MAKASSAR
+Value=7372;PAREPARE
+Value=7373;PALOPO
+Value=7401;BUTON
+Value=7402;MUNA
+Value=7403;KONAWE
+Value=7404;KOLAKA
+Value=7405;KONAWE SELATAN
+Value=7406;BOMBANA
+Value=7407;WAKATOBI
+Value=7408;KOLAKA UTARA
+Value=7409;BUTON UTARA
+Value=7410;KONAWE UTARA
+Value=7411;KOLAKA TIMUR
+Value=7412;KONAWE KEPULAUAN
+Value=7413;MUNA BARAT
+Value=7414;BUTON TENGAH
+Value=7415;BUTON SELATAN
+Value=7471;KENDARI
+Value=7472;BAUBAU
+Value=7501;BOALEMO
+Value=7502;GORONTALO
+Value=7503;POHUWATO
+Value=7504;BONE BOLANGO
+Value=7505;GORONTALO UTARA
+Value=7571;GORONTALO
+Value=7601;MAJENE
+Value=7602;POLEWALI MANDAR
+Value=7603;MAMASA
+Value=7604;MAMUJU
+Value=7605;MAMUJU UTARA
+Value=7606;MAMUJU TENGAH
+Value=8101;KEPULAUAN TANIMBAR
+Value=8102;MALUKU TENGGARA
+Value=8103;MALUKU TENGAH
+Value=8104;BURU
+Value=8105;KEPULAUAN ARU
+Value=8106;SERAM BAGIAN BARAT
+Value=8107;SERAM BAGIAN TIMUR
+Value=8108;MALUKU BARAT DAYA
+Value=8109;BURU SELATAN
+Value=8171;AMBON
+Value=8172;TUAL
+Value=8201;HALMAHERA BARAT
+Value=8202;HALMAHERA TENGAH
+Value=8203;KEPULAUAN SULA
+Value=8204;HALMAHERA SELATAN
+Value=8205;HALMAHERA UTARA
+Value=8206;HALMAHERA TIMUR
+Value=8207;PULAU MOROTAI
+Value=8271;TERNATE
+Value=8272;TIDORE KEPULAUAN
+Value=9101;FAKFAK
+Value=9102;KAIMANA
+Value=9103;TELUK WONDAMA
+Value=9104;TELUK BINTUNI
+Value=9105;MANOKWARI
+Value=9106;SORONG SELATAN
+Value=9107;SORONG
+Value=9108;RAJA AMPAT
+Value=9109;TAMBRAUW
+Value=9110;MAYBRAT
+Value=9111;MANOKWARI SELATAN
+Value=9112;PEGUNUNGAN ARFAK
+Value=9171;SORONG
+Value=9401;MERAUKE
+Value=9402;JAYAWIJAYA
+Value=9403;JAYAPURA
+Value=9404;NABIRE
+Value=9408;KEPULAUAN YAPEN
+Value=9409;BIAK NUMFOR
+Value=9410;PANIAI
+Value=9411;PUNCAK JAYA
+Value=9412;MIMIKA
+Value=9413;BOVEN DIGOEL
+Value=9414;MAPPI
+Value=9415;ASMAT
+Value=9416;YAHUKIMO
+Value=9417;PEGUNUNGAN BINTANG
+Value=9418;TOLIKARA
+Value=9419;SARMI
+Value=9420;KEEROM
+Value=9426;WAROPEN
+Value=9427;SUPIORI
+Value=9428;MAMBERAMO RAYA
+Value=9429;NDUGA
+Value=9430;LANNY JAYA
+Value=9431;MAMBERAMO TENGAH
+Value=9432;YALIMO
+Value=9433;PUNCAK
+Value=9434;DOGIYAI
+Value=9435;INTAN JAYA
+Value=9436;DEIYAI
+Value=9471;JAYAPURA
+Value=6502;BULUNGAN
+Value=6501;MALINAU
+Value=6504;NUNUKAN
+Value=6503;TANA TIDUNG
+Value=6571;TARAKAN
+
+[Item]
+Label=Jenis Sarana
+Name=JENIS_SARANA
+Start=8
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=Kode Enumerator
+Name=KODE_ENUMERATOR
+Start=10
+Len=3
+ZeroFill=Yes
+
+[Item]
+Label=Nomor Urut Sarana
+Name=NOMOR_URUT_SARANA
+Start=13
+Len=4
+DataType=Alpha
+
+[Record]
+Label=Manage Survey
+Name=MANAGE_SURVEY
+RecordTypeValue='4'
+RecordLen=124
+
+[Item]
+Label=ID Entry
+Name=ID_ENTRY
+Start=17
+Len=15
+DataType=Alpha
+
+[Item]
+Label=Username
+Name=USERNAME
+Start=32
+Len=15
+DataType=Alpha
+
+[Item]
+Label=Start Date
+Name=START_DATE
+Start=47
+Len=8
+
+[Item]
+Label=Start Time
+Name=STAR_TIME
+Start=55
+Len=8
+DataType=Alpha
+
+[Item]
+Label=Last Edit Date
+Name=LAST_EDIT_DATE
+Start=63
+Len=8
+
+[Item]
+Label=Last Edit Time
+Name=LAST_EDIT_TIME
+Start=71
+Len=8
+DataType=Alpha
+
+[Item]
+Label=Device ID
+Name=DEVICE_ID
+Start=79
+Len=30
+DataType=Alpha
+
+[Item]
+Label=Final Closing Date
+Name=FINAL_CLOSING_DATE
+Start=109
+Len=8
+DataType=Alpha
+
+[Item]
+Label=Final Closing Time
+Name=FINAL_CLOSING_TIME
+Start=117
+Len=8
+DataType=Alpha
+
+[Record]
+Label=Data Sarana
+Name=CBPOM_2022
+RecordTypeValue='1'
+RecordLen=514
+
+[Item]
+Label=Nama Provinsi
+Name=NAMA_PROVINSI
+Start=17
+Len=50
+DataType=Alpha
+
+[Item]
+Label=Nama Kabupaten
+Name=NAMA_KABUPATEN
+Start=67
+Len=50
+DataType=Alpha
+
+[Item]
+Label=Nama Sarana
+Name=NAMA_SARANA
+Start=117
+Len=75
+DataType=Alpha
+
+[Item]
+Label=Nama Jenis Sarana
+Name=NAMA_JENIS_SARANA
+Start=192
+Len=70
+DataType=Alpha
+
+[Item]
+Label=Alamat Sarana
+Name=ALAMAT_SARANA
+Start=262
+Len=200
+DataType=Alpha
+
+[Item]
+Label=Aktifkan GPS
+Name=AKTIFKAN_GPS
+Start=462
+Len=1
+
+[ValueSet]
+Label=Aktifkan GPS
+Name=AKTIFKAN_GPS_VS1
+Value=1;Aktifkan GPS
+Value=3;Simpan  GPS
+Value=9;Nonaktif GPS
+
+[Item]
+Label=Update GPS
+Name=UPDATE_GPS
+Start=463
+Len=1
+
+[ValueSet]
+Label=Update GPS
+Name=UPDATE_GPS_VS1
+Value=1;Perbarui
+Value=2;Tidak
+
+[Item]
+Label=Latitude
+Name=LATITUDE
+Start=464
+Len=10
+Decimal=6
+ZeroFill=Yes
+
+[Item]
+Label=Longitude
+Name=LONGITUDE
+Start=474
+Len=10
+Decimal=6
+ZeroFill=Yes
+
+[Item]
+Label=Foto Sarana
+Name=FOTO_SARANA
+Start=484
+Len=1
+
+[ValueSet]
+Label=Foto Sarana
+Name=FOTO_SARANA_VS1
+Value=1;Ambil Ulang Foto
+Value=2;Lihat Foto
+Value=3;Simpan Foto
+Value=9;Batal Mengambil Foto
+
+[ValueSet]
+Label=Foto Sarana
+Name=FOTO_SARANA_VS2
+Value=1;Ambil Foto
+Value=9;Batal Mengambil Foto
+
+[Item]
+Label=File Foto Sarana
+Name=FILE_FOTO_SARANA
+Start=485
+Len=30
+DataType=Alpha
+
+[Record]
+Label=Data Enumerator
+Name=DATA_ENUMERATOR
+RecordTypeValue='2'
+RecordLen=274
+
+[Item]
+Label=Nama Enumerator
+Name=NAMA_ENUMERATOR
+Start=17
+Len=50
+DataType=Alpha
+
+[Item]
+Label=No HP Enumerator
+Name=NOHP_ENUMERATOR
+Start=67
+Len=15
+DataType=Alpha
+
+[Item]
+Label=Kode Enum Crop
+Name=KODE_ENUM_CROP
+Start=82
+Len=3
+DataType=Alpha
+
+[Item]
+Label=Flag Enum
+Name=FLAG_ENUM
+Start=85
+Len=1
+DataType=Alpha
+
+[Item]
+Label=Tanggal Pengumpulan
+Name=TANGGAL_PENGUMPULAN
+Start=86
+Len=8
+ZeroFill=Yes
+
+[Item]
+Label=Keterangan Pencacahan
+Name=KETERANGAN_PENCACAHAN
+Start=94
+Len=1
+
+[ValueSet]
+Label=Keterangan Pencacahan
+Name=KETERANGAN_PENCACAHAN_VS1
+Value=1;1. Ditemukan dan komoditas yang diperdagangkan sesuai cakupan survei
+Value=2;2. Ditemukan dan komoditas yang diperdagangkan diluar cakupan survei
+Value=3;3. Pindah dan tidak dapat ditelusuri
+Value=4;4. Tutup
+Value=5;5. Tidak ditemukan
+Value=6;6. Ganda/double
+Value=7;7. Responden menolak diwawancarai
+Value=8;8. Lain-lain, sebutkan…
+
+[Item]
+Label=Lain lain
+Name=LAIN_LAIN
+Start=95
+Len=30
+DataType=Alpha
+
+[Item]
+Label=Nama Pemilik Sarana
+Name=NAMA_PEMILIK_SARANA
+Start=125
+Len=50
+DataType=Alpha
+
+[Item]
+Label=Nama Responden
+Name=NAMA_RESPONDEN
+Start=175
+Len=50
+DataType=Alpha
+
+[Item]
+Label=Jabatan/Pekerjaan Responden
+Name=PEKERJAAN_RESPONDEN
+Start=225
+Len=50
+DataType=Alpha
+
+[Record]
+Label=Data Produk
+Name=DATA_PRODUK
+RecordTypeValue='3'
+MaxRecords=5000
+RecordLen=2034
+
+[Item]
+Label=Nomor
+Name=NOMOR
+Start=17
+Len=4
+ZeroFill=Yes
+
+[Item]
+Label=ID Entry Produk
+Name=ID_ENTRY_PRODUK
+Start=21
+Len=19
+DataType=Alpha
+
+[Item]
+Label=Nomor Izin Edar
+Name=NOMOR_IZIN_EDAR
+Start=40
+Len=20
+DataType=Alpha
+
+[Item]
+Label=Nomor Izin Edar Baru
+Name=NOMOR_IZIN_EDAR_BARU
+Start=60
+Len=20
+DataType=Alpha
+
+[Item]
+Label=Komoditas
+Name=KOMODITAS
+Start=80
+Len=1
+
+[ValueSet]
+Label=Komoditas
+Name=KOMODITAS_VS1
+Value=1;Obat (D / G)
+Value=2;Obat Tradisional (T / H / F / Q)
+Value=3;Suplemen Kesehatan (S)
+Value=4;Kosmetik (N)
+Value=5;Pangan Olahan (M)
+Value=6;PIRT (digit angka)
+
+[Item]
+Label=Nama Produk
+Name=NAMA_PRODUK
+Start=81
+Len=300
+DataType=Alpha
+
+[Item]
+Label=Sesuai Daftar
+Name=SESUAI_DAFTAR
+Start=381
+Len=1
+
+[Item]
+Label=Kemasan
+Name=KEMASAN
+Start=382
+Len=999
+DataType=Alpha
+
+[Item]
+Label=Nama Produsen
+Name=NAMA_PRODUSEN
+Start=1381
+Len=255
+DataType=Alpha
+
+[Item]
+Label=Jenis Produk
+Name=JENIS_PRODUK
+Start=1636
+Len=300
+DataType=Alpha
+
+[Item]
+Label=Foto Produk
+Name=FOTO_PRODUK
+Start=1936
+Len=1
+
+[ValueSet]
+Label=Foto Produk
+Name=FOTO_PRODUK_VS1
+Value=1;Ambil Ulang Foto
+Value=2;Lihat Foto
+Value=3;Simpan Foto
+Value=9;Batal Mengambil Foto
+
+[ValueSet]
+Label=Foto Produk
+Name=FOTO_PRODUK_VS2
+Value=1;Ambil Foto
+Value=9;Batal Mengambil Foto
+
+[Item]
+Label=File Foto Produk
+Name=FILE_FOTO_PRODUK
+Start=1937
+Len=30
+DataType=Alpha
+
+[Item]
+Label=Aktif
+Name=AKTIF
+Start=1967
+Len=1
+
+[Item]
+Label=Kondisi Mutu Produk
+Name=KONDISI_MUTU_PRODUK
+Start=1968
+Len=7
+DataType=Alpha
+
+[ValueSet]
+Label=Kondisi Mutu Produk
+Name=KONDISI_MUTU_PRODUK_VS1
+Value='1      ';Zat Aktif / Komposisi
+Value='2      ';Aturan Pemakaian / Kegunaan / Cara Penggunaan / Cara Penyajian
+Value='3      ';Peringatan / Perhatian
+Value='4      ';Nomor Bets atau Kode Produksi
+Value='5      ';Tanggal kedaluwarsa belum melewati batas
+Value='6      ';Tanggal kedaluwarsa telah melewati batas
+Value='7      ';Kondisi produk yang dijual dalam keadaan baik
+
+[Item]
+Label=Produk Tidak Baik
+Name=PRODUK_TIDAK_BAIK
+Start=1975
+Len=1
+
+[ValueSet]
+Label=Produk Tidak Baik
+Name=PRODUK_TIDAK_BAIK_VS1
+Value=1;1. Kemasan rusak/bocor
+Value=2;2. Segel tidak ada/rusak
+Value=3;3. Produk berjamur
+Value=4;4. Produk berubah warna
+Value=5;5. Bau tidak sedap
+Value=6;6. Lain-Lain, Sebutkan….
+
+[Item]
+Label=Kondisi Lain
+Name=KONDISI_LAIN
+Start=1976
+Len=50
+DataType=Alpha
+
+[Item]
+Label=Tanggal Kedaluwarsa
+Name=TANGGAL_KEDALUWARSA
+Start=2026
+Len=8
+
+[Item]
+Label=Menambah Data
+Name=MENAMBAH_DATA
+Start=2034
+Len=1
+
+[ValueSet]
+Label=Menambah Data
+Name=MENAMBAH_DATA_VS1
+Value=1;Menambah data produk
+Value=2;Selesai mengisi data

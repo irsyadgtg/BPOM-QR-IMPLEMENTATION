@@ -1,0 +1,92 @@
+{
+  "software": "CSPro", 
+  "version": 8.0, 
+  "fileType": "application", 
+  "type": "entry", 
+  "name": "CBPOM_2022", 
+  "label": "CBPOM_2022", 
+  "dictionaries": [
+    {
+      "type": "input", 
+      "path": "cbpom_2022.dcf", 
+      "parent": "cbpom_2022.fmf"
+    }, 
+    {
+      "type": "external", 
+      "path": "ENUM/enum.dcf"
+    }, 
+    {
+      "type": "external", 
+      "path": "PRODUK/daftar.dcf"
+    }, 
+    {
+      "type": "external", 
+      "path": "SARANA/sarana.dcf"
+    }
+  ], 
+  "forms": [
+    "cbpom_2022.fmf"
+  ], 
+  "questionText": [
+    "cbpom_2022.ent.qsf"
+  ], 
+  "code": [
+    {
+      "type": "main", 
+      "path": "cbpom_2022.ent.apc"
+    }
+  ], 
+  "messages": [
+    "cbpom_2022.ent.mgf"
+  ], 
+  "logicSettings": {
+    "version": 2.0, 
+    "caseSensitive": {
+      "symbols": false
+    }, 
+    "actionInvoker": {
+      "accessFromExternalCaller": "promptIfNoValidAccessToken", 
+      "convertResultsForLogic": true
+    }
+  }, 
+  "properties": {
+    "askOperatorId": false, 
+    "autoAdvanceOnSelection": false, 
+    "caseTree": "mobileOnly", 
+    "centerForms": false, 
+    "createListing": true, 
+    "createLog": true, 
+    "decimalMark": "dot", 
+    "displayCodesAlongsideLabels": false, 
+    "notes": {
+      "delete": "all", 
+      "edit": "all"
+    }, 
+    "partialSave": {
+      "operatorEnabled": false
+    }, 
+    "showEndCaseMessage": true, 
+    "showOnlyDiscreteValuesInComboBoxes": true, 
+    "showFieldLabels": true, 
+    "showErrorMessageNumbers": false, 
+    "showQuestionText": true, 
+    "showRefusals": true, 
+    "sync": {
+      "server": "Dropbox", 
+      "direction": "put"
+    }, 
+    "verify": {
+      "frequency": 1, 
+      "start": 1
+    }, 
+    "htmlDialogs": true, 
+    "paradata": {
+      "collection": "none", 
+      "recordCoordinates": false, 
+      "recordInitialPropertyValues": false, 
+      "recordIteratorLoadCases": false, 
+      "recordValues": false
+    }, 
+    "useHtmlComponentsInsteadOfNativeVersions": false
+  }
+}

@@ -1,0 +1,64 @@
+﻿[Dictionary]
+Version=CSPro 7.6
+Label=daftar
+Name=DAFTAR_DICT
+RecordTypeStart=0
+RecordTypeLen=0
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+SecurityOptions=EFBD5A3DD4E1B4DE30EFACF72356B52FCA8D8EA4DC7E9203DB9EC472B2DDD9B9
+
+[Level]
+Label=daftar questionnaire
+Name=DAFTAR_QUEST
+
+[IdItems]
+
+[Item]
+Label=Nomor Izin Edar
+Name=NIED
+Start=1
+Len=20
+DataType=Alpha
+
+[Record]
+Label=daftar record
+Name=DAFTAR_REC
+RecordTypeValue=''
+RecordLen=1885
+
+[Item]
+Label=Nama Produk
+Name=NM_PRODUKD
+Start=21
+Len=300
+DataType=Alpha
+
+[Item]
+Label=Jenis Produk
+Name=NM_NIED
+Start=321
+Len=300
+DataType=Alpha
+
+[Item]
+Label=Kemasan
+Name=KEMASAND
+Start=621
+Len=999
+DataType=Alpha
+
+[Item]
+Label=Nama Perusahaan
+Name=NM_PRODUSEND
+Start=1620
+Len=255
+DataType=Alpha
+
+[Item]
+Label=Keterangan NIE
+Name=KETERANGAN_NIE
+Start=1875
+Len=11
+DataType=Alpha

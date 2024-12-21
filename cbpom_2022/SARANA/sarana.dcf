@@ -1,0 +1,72 @@
+﻿[Dictionary]
+Version=CSPro 7.6
+Label=sarana
+Name=SARANA_DICT
+RecordTypeStart=0
+RecordTypeLen=0
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+SecurityOptions=B57A56CE3ADD670E7BA8B3EEE17E736C3F04832D157CD0FB6BDE82710EE67FDC
+
+[Level]
+Label=sarana questionnarie
+Name=SARANA_QUEST
+
+[IdItems]
+
+[Item]
+Label=ID Sarana
+Name=SARANA_ID
+Start=1
+Len=8
+DataType=Alpha
+
+[Record]
+Label=sarana record
+Name=SARANA_REC
+RecordTypeValue=''
+RecordLen=294
+
+[Item]
+Label=No Urut Sarana
+Name=NURT_SARANAS
+Start=9
+Len=4
+DataType=Alpha
+
+[Item]
+Label=Nama Sarana
+Name=NM_SARANAS
+Start=13
+Len=80
+DataType=Alpha
+
+[Item]
+Label=Jenis Sarana
+Name=JNS_SARANAS
+Start=93
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Jenis Sarana
+Name=JNS_SARANAS_VS1
+Value=1;Rumah Sakit
+Value=2;Apotek
+Value=3;Toko Obat
+Value=4;GFK/IFK/Puskesmas
+Value=5;Hipermarket/Supermarket/Swalayan
+Value=6;Minimarket/Toko
+Value=7;PBF/Distributor/Agen
+Value=8;Toko Kosmetik
+Value=9;Depot/Toko Jamu/Toko Herbal
+Value=10;Klinik Modern/Klinik Kecantikan/Salon/Spa/Pengobatan Tradisional
+Value=11;Kios/Pasar
+
+[Item]
+Label=Alamat Sarana
+Name=ALAMATS
+Start=95
+Len=200
+DataType=Alpha

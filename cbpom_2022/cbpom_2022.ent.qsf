@@ -1,0 +1,60 @@
+﻿---
+fileType: Question Text
+version: CSPro 7.6
+languages:
+  - name: EN
+    label: English
+styles:
+  - name: Normal
+    className: normal
+    css: |
+      font-family: Arial;font-size: 16px;
+      
+  - name: Instruction
+    className: instruction
+    css: |
+      font-family: Arial;font-size: 14px;color: #0000FF;
+      
+  - name: Heading 1
+    className: heading1
+    css: |
+      font-family: Arial;font-size: 36px;
+      
+  - name: Heading 2
+    className: heading2
+    css: |
+      font-family: Arial;font-size: 24px;
+      
+  - name: Heading 3
+    className: heading3
+    css: |
+      font-family: Arial;font-size: 18px;
+      
+questions:
+  - name: CBPOM_2022_DICT.KONDISI_LAIN
+    conditions:
+      - questionText:
+          EN: |
+            Isikan kondisi lain...<p></p>
+  - name: CBPOM_2022_DICT.MENAMBAH_DATA
+    conditions:
+      - questionText:
+          EN: |
+            Apakah akan menambah data produk kembali?<p></p>
+  - name: CBPOM_2022_DICT.NOMOR_IZIN_EDAR
+    conditions:
+      - questionText:
+          EN: |
+            Isikan Nomor Izin Edar<p></p>
+  - name: CBPOM_2022_DICT.NOMOR_IZIN_EDAR_BARU
+    conditions:
+      - questionText:
+          EN: |
+            Masukkan Nomor Izin Edar terbaru<p></p>
+  - name: CBPOM_2022_DICT.NOMOR_URUT_SARANA
+    conditions:
+      - questionText:
+          EN: |
+            <p>Isikan Nomor Urut Sarana.&nbsp;</p><p>Format (HAAA)&nbsp;</p><p>H=Huruf (U=Utama,C=Cadangan)&nbsp;</p><p>A=Angka&nbsp;</p><p>Contoh : U001&nbsp;</p><p></p>
+            
+...

@@ -1,0 +1,12 @@
+﻿[Run Information]
+Version=CSPro 8.0
+AppType=Entry
+
+[Files]
+Application=.\cbpom_2022.ent
+InputData=.\cbpom_2022.csdb
+
+[ExternalFiles]
+DAFTAR_DICT=.\PRODUK\daftar.csdb
+ENUM_DICT=.\ENUM\enum.csdb
+SARANA_DICT=.\SARANA\sarana.csdb
