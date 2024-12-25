@@ -57,7 +57,7 @@ jamtrf=systime("HH");
 	// if ((jamtrf in 19:23) or (jamtrf in 00:05)) then
 
 string targetfolder;
-syncconnect(CSWeb,"https://surveispb.pom.go.id/api"); 
+// syncconnect(CSWeb,"https://surveispb.pom.go.id/api"); 
 // syncconnect(CSWeb,"https://csweb76.bubat-dev.xyz/api"); 
 // syncconnect(CSWeb,"https://survey-bpom.bubat-dev.xyz/api");
 picturesdir = "/mnt/sdcard/Pictures";
@@ -104,7 +104,7 @@ syncdisconnect();
 end;
 
 function backdata();
-syncconnect(CSWeb,"https://surveispb.pom.go.id/api"); 
+// syncconnect(CSWeb,"https://surveispb.pom.go.id/api"); 
 // syncconnect(CSWeb,"https://csweb76.bubat-dev.xyz/api"); 
 // syncconnect(CSWeb,"https://survey-bpom.bubat-dev.xyz/api"); 
 string backup_data = pathname(Application) + maketext("backup_data/");
@@ -1222,12 +1222,13 @@ preproc
 	//qr code test
 	
 	// Mendefinisikan variabel untuk menyimpan hasil scan
-    alpha(15) qrCodeResult; 
+    alpha(99) qrCodeResult; 
 
     // Jika variabel NOMOR_IZIN_EDAR_BARU kosong, lakukan scan QR code
     if $ = "" then
         qrCodeResult = Barcode.read("SCAN QR NIE PRODUK");
-        $ = qrCodeResult[5]; // Menyimpan hasil scan ke NOMOR_IZIN_EDAR_BARU
+		numeric qrx = length(strip(qrCodeResult)) - 14;
+        $ = qrCodeResult[5:qrx]; // Menyimpan hasil scan ke NOMOR_IZIN_EDAR_BARU
     endif;
 	
 	//qr code test
@@ -1245,7 +1246,8 @@ else
     // Jika variabel NOMOR_IZIN_EDAR_BARU kosong, lakukan scan QR code
     if $ = "" then
         qrCodeResult = Barcode.read("SCAN QR NIE PRODUK");
-        $ = qrCodeResult[5]; // Menyimpan hasil scan ke NOMOR_IZIN_EDAR_BARU
+		numeric qrx = length(strip(qrCodeResult)) - 14;
+        $ = qrCodeResult[5-qrx]; // Menyimpan hasil scan ke NOMOR_IZIN_EDAR_BARU
     endif;
 	
 	//qr code test

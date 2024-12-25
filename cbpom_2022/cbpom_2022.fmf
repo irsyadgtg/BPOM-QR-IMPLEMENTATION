@@ -221,7 +221,7 @@ Text=Final Closing Time
   
 [Field]
 Name=KODE_KABUPATEN
-Position=239,142,296,162
+Position=240,142,297,162
 Item=KODE_KABUPATEN,CBPOM_2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
